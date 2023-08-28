@@ -1,0 +1,17 @@
+body {
+  margin: 0 auto;
+  min-width: 108px;
+  box-sizing: border-box;
+  background: linear-gradient(123deg, #2C2C2C 0%, #1C1C1C 100%);
+  color: #E4E4E4;
+}
+
+a {
+  color: #E4E4E4;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
