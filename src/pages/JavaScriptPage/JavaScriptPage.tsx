@@ -1,8 +1,15 @@
 import { memo } from 'react';
+import { motion } from 'framer-motion';
 import s from './JavaScriptPage.module.css';
+import { pageVariants } from '../../shared/config/pageVariants';
 
 const JavaScriptPage = () => (
-    <section className={s.javaScriptPage}>
+    <motion.section className={s.javaScriptPage}
+      variants={pageVariants}
+      initial='hidden'
+      animate='visible'
+      exit='exit'
+    >
       <h2 className={s.title}>Задачка на JavaScript</h2>
       <p className={s.info}>
         При устройстве на работу, на собеседовании одним из этапов технического интервью
@@ -31,7 +38,7 @@ const JavaScriptPage = () => (
         <li>12321 — и это палиндром.</li>
         <li>Я бы изменил мир, но бог не дает исходники – это строка не палиндром</li>
       </ul>
-    </section>
+    </motion.section>
 );
 
 export default memo(JavaScriptPage);
