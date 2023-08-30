@@ -6,7 +6,7 @@ import s from './Footer.module.css';
 
 const Footer: FC = () => (
     <footer className={s.footer}>
-      <a href='https://github.com/SergeyKazarinov' target='_blank'>Ссылка на сайт</a>
+      <a href='https://github.com/SergeyKazarinov/yandex.practicum' target='_blank'>Ссылка на сайт</a>
       <div className={s.icons}>
         <a href='https://github.com/SergeyKazarinov' target='_blank'>
           <AiFillGithub size={30}/>

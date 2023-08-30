@@ -1,0 +1,12 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: var(--header-height);
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}

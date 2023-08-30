@@ -1,0 +1,19 @@
+.javaScriptPage {
+  height: var(--content-height);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 70px;
+}
+
+.title {
+  text-align: center;
+}
+
+.info {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 800;
+}
