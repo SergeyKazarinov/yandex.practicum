@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import MainPage from '../../pages/MainPage/MainPage';
 import ScreenCast from '../../pages/ScreenCast/ScreenCast';
 import Layout from '../Layout/Layout';

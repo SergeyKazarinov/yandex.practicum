@@ -40,19 +40,20 @@
   padding: 20px;
   border-radius: 14px;
   background: #2C2C2C;
-
 }
 
 .top {
   position: absolute;
   top: -10%;
   left: -45%;
+  z-index: -1;
 }
 
 .bottom {
   position: absolute;
   bottom: -10%;
   right: -45%;
+  z-index: -1;
 }
 
 .image {
@@ -86,36 +87,105 @@
   z-index: 1;
 }
 
-.button {
-  margin: 200px;
-  color: #fff;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-  background-color: #00000000;
-  border: 2px solid #fff;
-  overflow: hidden;
-  position: relative;
-  transition: 1s;
-  z-index: 2;
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 396px;
+    padding: 0 40px 40px;
+  }
+
+  .imageWrapper {
+    width: 240px;
+    height: 340px;
+  }
+  
+  .top {
+    position: absolute;
+    top: -10%;
+    left: -50%;
+  }
+  
+  .bottom {
+    position: absolute;
+    bottom: -10%;
+    right: -45%;
+  }
+
+  .squareDown {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 40px solid #00C4F0;
+    top: 500px;
+    left: 20%;
+  }
+  
+  .squareTop {
+    width: 250px;
+    height: 250px;
+    border: 25px solid #E2A200;
+    top: 50%;
+    right: 20%;
+  }
 }
 
-.button::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  inset: 0;
-  left: -100%;
-  transition: 1s;
-  z-index: -1;
+@media screen and (max-width: 850px) {
+  .flex {
+    display: flex;
+  }
+
+  .container {
+    width: 400px;
+  }
+
+  .imageWrapper {
+    width: 240px;
+    height: 300px;
+    padding: 5px;
+  }
+
+  .top,
+  .bottom {
+    position: static;
+  }
+  
+  .squareDown {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 40px solid #00C4F0;
+    top: 10%;
+    left: 20%;
+  }
+  
+  .squareTop {
+    width: 250px;
+    height: 250px;
+    border: 25px solid #E2A200;
+    top: 72%;
+    right: 15%;
+  }
 }
 
-.button:hover {
-  border: 2px solid #000;
-}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 0 10px;
+  }
 
-.button:hover::before {
-  left: 0;
+  .flex {
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+
+  .squareDown,
+  .squareTop {
+    width: 150px;
+    height: 150px;
+  }
 }

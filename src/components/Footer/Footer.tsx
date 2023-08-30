@@ -9,13 +9,13 @@ const Footer: FC = () => (
       <a href='https://github.com/SergeyKazarinov/yandex.practicum' target='_blank'>Ссылка на сайт</a>
       <div className={s.icons}>
         <a href='https://github.com/SergeyKazarinov' target='_blank'>
-          <AiFillGithub size={30}/>
+          <AiFillGithub size={20}/>
         </a>
         <a href='mailto:kazarinov092@gmail.com' target='_blank'>
-          <SiGmail size={30}/>
+          <SiGmail size={20}/>
         </a>
         <a href='https://t.me/SKey92' target='_blank'>
-          <BsTelegram size={30}/>
+          <BsTelegram size={20}/>
         </a>
       </div>
     </footer>

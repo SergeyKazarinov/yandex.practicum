@@ -31,11 +31,13 @@ const About: FC = () => (
           Кромет того, на моей страничке GitHub есть много других проектов,
           с которыми ты можешь познакомиться.
         </p>
-        <div className={`${s.imageWrapper} ${s.top}`}>
-          <img className={s.image} src={student} alt='фотография студента' />
-        </div>
-        <div className={`${s.imageWrapper} ${s.bottom}`}>
-          <img className={s.image} src={now} alt='фотография студента' />
+        <div className={s.flex}>
+          <div className={`${s.imageWrapper} ${s.top}`}>
+            <img className={s.image} src={student} alt='фотография студента' />
+          </div>
+          <div className={`${s.imageWrapper} ${s.bottom}`}>
+            <img className={s.image} src={now} alt='фотография студента' />
+          </div>
         </div>
       </div>
       <div className={s.squareDown} />

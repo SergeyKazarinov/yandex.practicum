@@ -1,5 +1,5 @@
 .javaScriptPage {
-  height: var(--content-height);
+  min-height: var(--content-height);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -16,4 +16,10 @@
 
 .bold {
   font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  .javaScriptPage {
+    padding: 0 10px;
+  }
 }
