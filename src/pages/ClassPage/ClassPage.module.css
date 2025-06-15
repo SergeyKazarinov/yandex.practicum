@@ -1,0 +1,158 @@
+.classPage {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.classPage__title {
+  text-align: center;
+  color: var(--color-title);
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.classPage__section {
+  margin-bottom: 30px;
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--color-primary);
+}
+
+.classPage__sectionTitle {
+  color: var(--color-subtitle);
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.classPage__sectionTitle_bordered {
+  color: var(--color-error);
+  border-bottom: 3px solid var(--color-error);
+  padding-bottom: 15px;
+}
+
+.classPage__list {
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 2;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.classPage__list li {
+  margin-bottom: 8px;
+}
+
+.classPage__text {
+  color: var(--color-text);
+}
+
+.classPage__sectionTheme {
+  margin-bottom: 50px;
+}
+
+.classPage__orderedList {
+  font-size: 16px;
+  line-height: 2;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--color-text-invert);
+}
+
+.classPage__orderedList li {
+  margin-bottom: 10px;
+}
+
+.classPage__taskSection {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.classPage__taskSection h4 {
+  color: #c92a2a;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.classPage__taskSection ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.classPage__taskSection li {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.classPage__note {
+  background-color: #fff3cd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #ffc107;
+}
+
+.classPage__note h5 {
+  color: #856404;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.classPage__note p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.classPage__smallCode {
+  font-size: 14px !important;
+}
+
+.classPage__smallCode .codeBlock__code {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .classPage {
+    padding: 0 15px;
+  }
+
+  .classPage__title {
+    font-size: 2em;
+  }
+
+  .classPage__sectionTitle {
+    font-size: 2em;
+  }
+
+  .classPage__section {
+    padding: 15px;
+  }
+
+  .classPage__taskSection {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .classPage__title {
+    font-size: 1.8em;
+  }
+
+  .classPage__sectionTitle {
+    font-size: 1.6em;
+  }
+
+  .classPage__list {
+    font-size: 16px;
+  }
+}

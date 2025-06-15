@@ -59,7 +59,7 @@
   height: 500px;
   flex-shrink: 0;
   border-radius: 100%;
-  border: 67px solid #00C4F0;
+  border: 67px solid #00c4f0;
   box-shadow: 0px 0px 152px 0px rgba(0, 196, 240, 0.42);
   z-index: -1;
 }
@@ -96,12 +96,12 @@
     font-size: 62px;
     line-height: 45px;
   }
-  
+
   .subtitle {
     font-size: 32px;
     line-height: 60px;
   }
-  
+
   .description {
     font-size: 18px;
   }
@@ -114,7 +114,7 @@
   .square {
     width: 250px;
     height: 250px;
-    border: 37px solid #00C4F0;
+    border: 37px solid #00c4f0;
     top: 15%;
     right: -17%;
   }
@@ -138,12 +138,12 @@
     font-size: 42px;
     line-height: 25px;
   }
-  
+
   .subtitle {
     font-size: 24px;
     line-height: 20px;
   }
-  
+
   .description {
     font-size: 12px;
   }
@@ -157,7 +157,7 @@
   .square {
     width: 180px;
     height: 180px;
-    border: 20px solid #00C4F0;
+    border: 20px solid #00c4f0;
     top: 20%;
     right: -10%;
   }
