@@ -1,0 +1,56 @@
+.toggleButton {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.toggleButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.toggleButton:active {
+  transform: translateY(0);
+}
+
+.toggleButton_primary {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.toggleButton_primary-active {
+  background-color: var(--color-error);
+}
+
+.toggleButton_success {
+  background-color: var(--color-success);
+  color: var(--color-text);
+}
+
+.toggleButton_success-active {
+  background-color: var(--color-error);
+}
+
+.toggleButton_warning {
+  background-color: var(--color-warning);
+  color: var(--color-text);
+}
+
+.toggleButton_warning-active {
+  background-color: var(--color-error);
+}
+
+.toggleButton_danger {
+  background-color: var(--color-error);
+  color: var(--color-text);
+}
+
+.toggleButton_danger-active {
+  background-color: var(--color-success);
+}

@@ -1,0 +1,58 @@
+.sectionTitle {
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.sectionTitle__bordered {
+  border-bottom: 3px solid;
+  padding-bottom: 15px;
+}
+
+.sectionTitle_primary {
+  color: var(--color-primary);
+}
+
+.sectionTitle_primary.sectionTitle__bordered {
+  border-bottom-color: var(--color-primary);
+}
+
+.sectionTitle_success {
+  color: var(--color-success);
+}
+
+.sectionTitle_success.sectionTitle__bordered {
+  border-bottom-color: var(--color-success);
+}
+
+.sectionTitle_warning {
+  color: var(--color-warning);
+}
+
+.sectionTitle_warning.sectionTitle__bordered {
+  border-bottom-color: var(--color-warning);
+}
+
+.sectionTitle_danger {
+  color: var(--color-error);
+}
+
+.sectionTitle_danger.sectionTitle__bordered {
+  border-bottom-color: var(--color-error);
+}
+
+.sectionTitle_info {
+  color: var(--color-info);
+}
+
+.sectionTitle_info.sectionTitle__bordered {
+  border-bottom-color: var(--color-info);
+}
+
+.sectionTitle_secondary {
+  color: var(--color-secondary);
+}
+
+.sectionTitle_secondary.sectionTitle__bordered {
+  border-bottom-color: var(--color-secondary);
+}

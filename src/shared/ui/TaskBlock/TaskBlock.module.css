@@ -1,0 +1,42 @@
+.taskBlock {
+  background-color: #ffe6e6;
+  border: 2px solid #ff6b6b;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  color: var(--color-text-invert);
+}
+
+.taskBlock__title {
+  color: var(--color-error);
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.taskBlock__description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.taskBlock__requirements {
+  font-size: 16px;
+  line-height: 2;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.taskBlock__requirement {
+  margin-bottom: 8px;
+}
+
+.taskBlock__requirement:last-child {
+  margin-bottom: 0;
+}
+
+.taskBlock__requirement strong {
+  color: var(--color-error);
+  font-weight: 600;
+}

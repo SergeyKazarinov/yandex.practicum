@@ -1,0 +1,39 @@
+.codeBlock {
+  background-color: #ffffff;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.codeBlock__pre {
+  margin: 0;
+  overflow-x: auto;
+}
+
+.codeBlock__code {
+  display: block;
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  white-space: pre;
+}
+
+.codeBlock__code_javascript {
+  color: #2d3748;
+}
+
+.codeBlock_bordered {
+  border-color: var(--color-warning);
+}
+
+.codeBlock_success {
+  background-color: #ffffff;
+  border-color: var(--color-success);
+}
+
+.codeBlock_small .codeBlock__code {
+  font-size: 14px;
+  line-height: 1.4;
+}
